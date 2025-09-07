@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESI FOODS | Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>DESI FOODS</h1>
+        </div>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h2>Our Menu</h2>
+            <p>Discover our culinary masterpieces</p>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="all">All</button>
+                <button class="menu-tab" data-category="appetizers">Starter</button>
+                <button class="menu-tab" data-category="main-courses">Main Courses</button>
+                <button class="menu-tab" data-category="desserts">Desserts</button>
+                <button class="menu-tab" data-category="beverages">Refreshments Drinks</button>
+            </div>
+
+            <div class="menu-items">
+                <!-- Appetizers -->
+                <div class="menu-item" data-category="appetizers">
+                    <div class="menu-item-img">
+                        <img src="panipuri.jpg" alt="Gol Gappay">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Gol Gappay</h3>
+                            <span class="price">Rs. 150</span>
+                        </div>
+                        <p>Crispy hollow puris filled with spicy potato mixture, topped with tangy tamarind water and mint chutney. A popular Pakistani street food that bursts with flavor in every bite.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="appetizers">
+                    <div class="menu-item-img">
+                        <img src="seekh kabab.jpg" alt="Seekh Kebab">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Seekh Kebab</h3>
+                            <span class="price">Rs. 400</span>
+                        </div>
+                        <p>Minced meat mixed with aromatic spices, skewered and grilled to perfection. Served with mint chutney and fresh naan. A classic Pakistani appetizer loved by all.</p>
+                    </div>
+                </div>
+
+                <!-- Main Courses -->
+                <div class="menu-item" data-category="main-courses">
+                    <div class="menu-item-img">
+                        <img src="nihari.jpg" alt="Nihari">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Nihari</h3>
+                            <span class="price">Rs. 600</span>
+                        </div>
+                        <p>Slow-cooked beef stew simmered overnight with special Nihari masala. Garnished with fresh ginger, green chilies, and lemon. Served with hot naan. A traditional Pakistani breakfast dish.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="main-courses">
+                    <div class="menu-item-img">
+                        <img src="ghost.jpg" alt="Karahi Gosht">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Karahi Gosht</h3>
+                            <span class="price">Rs. 750</span>
+                        </div>
+                        <p>Tender mutton pieces cooked in a wok with tomatoes, green chilies, and a blend of Pakistani spices. Finished with fresh coriander and served with tandoori roti. A Peshawar specialty.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="main-courses">
+                    <div class="menu-item-img">
+                        <img src="haleem.jpg" alt="Haleem">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Haleem</h3>
+                            <span class="price">Rs. 450</span>
+                        </div>
+                        <p>A hearty stew of wheat, lentils, and tender beef slow-cooked to perfection. Topped with fried onions, lemon, and fresh coriander. A nutritious Pakistani comfort food.</p>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-item" data-category="desserts">
+                    <div class="menu-item-img">
+                        <img src="jalibi.jpg" alt="Jalebi">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Jalebi</h3>
+                            <span class="price">Rs. 200</span>
+                        </div>
+                        <p>Crispy, pretzel-shaped sweets soaked in saffron-infused sugar syrup. Served warm with a sprinkle of pistachios. A popular Pakistani sweet enjoyed at celebrations.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts">
+                    <div class="menu-item-img">
+                        <img src="kheer.jpg" alt="Kheer">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Kheer</h3>
+                            <span class="price">Rs. 180</span>
+                        </div>
+                        <p>Creamy rice pudding slow-cooked with milk, cardamom, and saffron. Garnished with almonds, pistachios, and rose petals. A traditional Pakistani dessert served on special occasions.</p>
+                    </div>
+                </div>
+
+                <!-- Beverages -->
+                <div class="menu-item" data-category="beverages">
+                    <div class="menu-item-img">
+                        <img src="chai.jpg" alt="Kashmiri Chai">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Kashmiri Chai</h3>
+                            <span class="price">Rs. 180</span>
+                        </div>
+                        <p>Pink-colored tea made with special Kashmiri tea leaves, milk, and a pinch of salt. Topped with crushed pistachios and almonds. A traditional Pakistani tea enjoyed in winter.</p>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="beverages">
+                    <div class="menu-item-img">
+                        <img src="sugarcane.jpg" alt="Sugarcane Juice">
+                    </div>
+                    <div class="menu-item-info">
+                        <div class="menu-item-header">
+                            <h3>Sugarcane Juice</h3>
+                            <span class="price">Rs. 120</span>
+                        </div>
+                        <p>Freshly pressed sugarcane juice with a hint of lemon and ginger. Served chilled with ice. A refreshing Pakistani street beverage perfect for hot summer days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Experience Our Best Food?</h2>
+            <p>Make a reservation today and enjoy a memorable dining experience.</p>
+            <a href="contact.html" class="btn">Reserve a Table</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DESI FOODS</h3>
+                    <p>Experience the finest culinary journey with our authentic desi dishes.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 11:00 AM - 10:00 PM</p>
+                    <p>Saturday - Sunday: 10:00 AM - 11:00 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Lahore, Pakistan</p>
+                    <p><i class="fas fa-phone"></i> (042) 3456-7890</p>
+                    <p><i class="fas fa-envelope"></i> info@desifoods.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 DESI FOODS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for menu filtering
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.menu-tab');
+            const items = document.querySelectorAll('.menu-item');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    const category = this.getAttribute('data-category');
+                    
+                    // Show/hide items based on category
+                    items.forEach(item => {
+                        if (category === 'all' || item.getAttribute('data-category') === category) {
+                            item.style.display = 'flex';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
